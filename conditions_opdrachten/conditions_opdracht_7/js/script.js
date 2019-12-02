@@ -1,8 +1,8 @@
 function getAge()
 {
-var myAge=document.getElementById("myAge").value; //de eerste variabele is voor je aangemaakt...
+var myAge=document.getElementById("myAge").value; 
 
-if(myAge < 10) //vul de juiste voorwaarde in!
+if(myAge < 10) 
         {
              loadChildTheme() ;
         }
