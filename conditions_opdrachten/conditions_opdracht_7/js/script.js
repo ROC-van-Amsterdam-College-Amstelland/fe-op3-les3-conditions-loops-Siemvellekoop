@@ -19,7 +19,7 @@ if(myAge < 10)
 
 function loadChildTheme()
 {
-    document.getElementById("brand").src = "images/logo-01.png" ;
+    
     document.getElementsByTagName("body")[0].style.backgroundColor = "yellowgreen" ;
     document.getElementsByTagName("header")[0].style.backgroundColor = "#00AEEF" ;
     document.getElementsByClassName("active")[0].style.backgroundColor = "green" ;
@@ -29,7 +29,7 @@ function loadChildTheme()
 
 function loadTheme()
 {
-    document.getElementById("brand").src = "images/logo-02.png" ;
+    
     document.getElementsByTagName("body")[0].style.backgroundColor = "darkgrey" ;
     document.getElementsByClassName("active")[0].style.backgroundColor = "#666666" ;
     document.getElementById("main-nav").style.backgroundColor = "black";
@@ -39,7 +39,7 @@ function loadTheme()
 
 function manTheme()
 {
-    document.getElementById("brand").src = "images/logo-02.png" ;
+    
     document.getElementsByTagName("body")[0].style.backgroundColor = "red" ;
     document.getElementsByClassName("active")[0].style.backgroundColor = "black" ;
     document.getElementById("main-nav").style.backgroundColor = "purple";
