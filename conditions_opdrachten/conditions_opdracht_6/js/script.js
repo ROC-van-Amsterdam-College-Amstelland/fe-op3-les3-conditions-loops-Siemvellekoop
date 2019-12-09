@@ -1,8 +1,9 @@
 //javascript code
-function add(){
-    var num1 ;
-    var num2 ;
-    var myAnwsner ;
+var num1 ;
+var num2 ;
+var myAnwsner ;
+
+    function add(){
     num1 = parseInt(document.getElementById("number1").value) ;
     num2 = parseInt(document.getElementById("number2").value) ;
 
@@ -12,9 +13,6 @@ function add(){
 }
 
 function minus(){
-    var num1 ;
-    var num2 ;
-    var myAnwsner ;
     num1 = parseInt(document.getElementById("number1").value) ;
     num2 = parseInt(document.getElementById("number2").value) ;
 
@@ -24,9 +22,6 @@ function minus(){
 }
 
 function multiply(){
-    var num1 ;
-    var num2 ;
-    var myAnwsner ;
     num1 = parseInt(document.getElementById("number1").value) ;
     num2 = parseInt(document.getElementById("number2").value) ;
 
@@ -36,9 +31,6 @@ function multiply(){
 }
 
 function divide(){
-    var num1 ;
-    var num2 ;
-    var myAnwsner ;
     num1 = parseInt(document.getElementById("number1").value) ;
     num2 = parseInt(document.getElementById("number2").value) ;
 

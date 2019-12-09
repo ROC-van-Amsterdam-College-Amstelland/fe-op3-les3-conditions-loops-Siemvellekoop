@@ -1,10 +1,9 @@
-//javascript code
 function myFunction() {
-    var text = "";
-    var i;
-    for (i = 0; i > 20; i++) {
-      text += "The number is " + i + "<br>";
-      console.log(i)
-    }
-    document.getElementById("opdracht").innerHTML;
+  var i = "";
+  var text = "";
+  for
+   (i = 20; i > 0; i--) 
+    text += i + "<br>" ;
+    console.log(i);
+    document.getElementById("opdracht").innerHTML = text;
   }

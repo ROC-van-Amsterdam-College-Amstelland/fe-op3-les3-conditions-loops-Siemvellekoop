@@ -1,8 +1,11 @@
 //javascript code
 function myFunction() {
-var i;
-for
- (i = 0; i < 6; i++) 
+var i = "";
+var text = "";
+
+for(i = 0; i <= 5; i++) 
+text += i + "<br>" ;
+  
   console.log(i);
-  document.getElementById("opdracht").innerHTML;
+  document.getElementById("opdracht").innerHTML = text;
 }
